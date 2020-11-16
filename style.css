@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+
+body {
+    background-color: sandybrown;
+    font-family: 'Quicksand', sans-serif;
+    width: auto;
+  background-image:url('https://i.ibb.co/dWSYYhR/Background-tanned.jpg');
+    background-size: cover;
+
+}
+
+.top-box {
+    background-color:#FFC08D;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  width: 650px;
+    align-content:center;
+  z-index: 10000;
+    display:flex;
+    flex-direction:column;
+
+}
+
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    font-weight: 700;
+color:#2B1126;
+    font-style: normal;
+    margin: 15px;
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+  color:#2B1126;
+    font-style: normal;
+    margin: 15px;
+    line-height: 0px;
+}
+
+h3 {font-family: 'Staatliches', cursive;
+    font-size: 10pt;
+  color:#2B1126;
+    margin-left: 15px;
+  line-height: 0px;
+}
+
+h4 {font-family: 'Staatliches', cursive;
+    font-weight: 400;
+  color:#2B1126;
+    font-style: normal;
+    font-size: 16pt;
+ 
+
+  
+  
+  
+}
+
+h5 {
+    font-family: 'Staatliches', cursive;
+    font-style: normal;
+  color:#2B1126;
+  font-size: 40px;
+    margin-top:5px;
+    margin-bottom:5px;
+    border-bottom: 1px solid red;
+}
+
+h6 {
+    font-family: 'Staatliches', cursive;
+    font-style: normal;
+    font-size: 22px;
+color:#2B1126;
+    margin-left:15px;
+    background-color:orange;
+  padding:10px;
+  border-radius: 5px;
+  padding-top:15px;
+    padding-left:20px;
+}
+
+
+h7 {
+    font-family: 'Space Grotesk', 'sans-serif';
+    font-weight:700;
+    display:flex;
+    font-size: 16px;
+color:#2B1126;
+    margin:15px;
+    background-color:orange;
+  padding:15px;
+  border-radius: 5px;
+  padding-top:15px;
+    padding-left:20px;
+}
+
+h7 img {
+    margin-left:25px;
+    border-radius:25px;
+    border-top-left-radius:
+
+}
+
+.answer {
+font-family: 'Space Grotesk', 'sans-serif';
+          margin-left:20px;
+  color:2b0000;
+  padding-bottom:15px;
+  padding-right:15px;
+  padding-left:15px;
+          line-height:22px;
+          border-bottom: 1px dashed red;
+          padding-bottom: 15px;
+}
+
+.carousel {
+    margin-bottom: 45px;
+    width: auto;
+  font-family: 'Staatliches', cursive;
+    font-style: normal;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+}
+
+.main-box {
+    background-color: navajowhite;
+    width: 575px;
+    padding: 50px;
+    padding-top: 25px;
+    margin: 200px auto;
+    border-radius: 5px;
+    align-content:center;
+}
+
+.nav-menu {
+    font-family: 'Space Grotesk', 'sans-serif';
+    font-weight:500;
+    background-color: darkorange;
+    width: 630px;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 5px;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    display:flex;
+  text-align:center;
+    
+    flex-direction:row;
+}
+
+.nav-menu a {
+    color:black;
+  padding-top:15px;
+}
+
+.nav-menu a:hover {
+  background-color: orangered;
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:15px;
+  border-radius:10px;
+}
+
+.nav-menu a:active {
+  background-color: #b72200;
+  color: white;
+  
+}
+
+a {
+  font-family:inherit;
+  padding:5px;
+  color:
+}
+
+.mvp {
+ border-bottom: 1px red solid;
+  padding-top: 5px;
+  margin-bottom: 25px;
+}
+
+.product {
+    display:flex;
+    margin-bottom: 100px;
+    border-bottom: 1px red dashed;
+    padding-bottom: 15px;
+  
+   
+}
+
+.description {
+    font-family: 'Space Grotesk', 'sans-serif';
+  margin-left: 15px;
+  padding 5px;
+}
+
+.button {
+    font-family: 'Staatliches', cursive;
+    height: 125px;
+    width: 125px;
+    background-color:orange;
+    border-radius: 65%;
+    text-align: center;
+}
+
+.section-heading {
+    background-color: orangered;
+    width: auto;
+    padding: 5px;
+    margin-top:50px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+p {
+    font-family: 'Space Grotesk', 'sans-serif';
+    font-weight:500;
+    width: auto;
+    color:2b0000;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+li {
+    margin:15px;
+    font-weight:500;
+}
+
+li a {
+    color:black;
+}
+
+.wrapper {
+    padding-left 20px;
+    padding-right: 20px;
+    max-width 960px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:12em;
+}
+
+.my-store-39691098 {
+  position: inherit;
+}
+
+.ec-cart-widget {
+
+}
+
+.formbox {
+  width:inherit;
+  justify-content:left;
+  background-color:#f9c485;
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:5px;
+  padding-bottom: 50px;
+  border-radius: 25px;
+  
+}
+
+textarea {
+  width:350px;
+  height:100px;
+}
+
+input {
+  background-color:#ffe2c0;
+  align-content:center;
+}
+
+.my-search-39691098 {
+  width:40px;
+  flex-shrink:5
+    padding-top:15px;
+}
+
+.my-store-39691098 {
+    font-family: 'Space Grotesk', 'sans-serif';
+}
+
+.nav-menu input {
+  border: none;
+  float:right;
+  width:55px;
+  align-content:center;
+  
+}
+
+.center {
+  display: block;
+ margin-left: auto;
+  margin-right: auto; 
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+    margin-left: 15px;
+    font-family: 'Space Grotesk', 'sans-serif';
+    font-weight:500;
+}
+
+input class="submit"{}
+
+textarea {
+    margin-left: 15px;
+    font-family: 'Space Grotesk', 'sans-serif';
+    font-weight:500;
+}
